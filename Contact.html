@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="CSS/StyleSheet2.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="Images/WB.jpg" alt="WB">
+            <div class="onglets">
+                <a href="Index.html">Accueil</a>
+                <a href="Contact.html" target="_blank" target="_parent">Contact</a>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <h1>Contactez-moi si vous voulez en <strong>savoir plus!</strong></h1>
+        <form name="MonFormulaire" action="UneAction" method="post">
+            <p><label for="Utilisateur">Votre nom: </label>
+            <input type="text" name="Utilisateur" id="Utilisateur" size="50"
+        value="Saisissez votre nom" required/></p>
+        <p><label for="Courriel">Adresse courriel: </label>
+            <input type="email" name="MotPasse" id="Courriel" size="50"
+        value="Saisissez votre courriel" required/></p>
+        <p><label for="Telephone">Téléphone : </label>
+            <input type="tel" name="Telephone" id="Telephone" size="50"
+            value="Saisissez votre teléphone"/></p>
+        <p><label for="Commentaires">Envoyez-moi un message</label><br />
+        <textarea name="Commentaires" id="Commentaires" cols="100" rows="10"></textarea></p>
+        <p><input type="submit" name="btnSoumettre" value="Soumettre"/>
+        <input type="reset" name="btnEffacer" value="Effacer"/></p>
+        </form>
+        <footer>
+            <div class="infos">
+                <div class="info">
+                    <h3>Politiques et conditions</h3>
+                    <ul>
+                        <li><a href="Confidentialite.html">
+                            Politique de confidentialité</a></li>
+                         <li><a href="utilisation.html">
+                            Conditions d'utilisation</a> </li>
+                         <li>Ce site a été crée par
+                            <a href="http://www.collegecdi.ca/">
+                                TechNet Inc.</a></li>
+                    </ul>
+                </div>
+                <div class="info">
+                    <h3>Réseaux sociaux</h3>
+                    <p><a href="https://www.linkedin.com/in/waleska-de-ara%C3%BAjo-siqueira-bento-276483aa/"><img src="Images/Linkedin.png" alt="Linkedin" title="Mon Linkedin"/></a>
+                    <a href="https://profile.indeed.com/?hl=fr_CA&co=CA&from=gnav-jobseeker-profile--profile-one-frontend"><img src="Images/Indeed.png" alt="Indeed" title="Mon Indeed"/></a>
+                    <a href="https://www.facebook.com/waleska.siqueirabento?locale=fr_CA"><img src="Images/facebook.png" alt="facebook" title="Mon facebook"/></a>
+                    <a href="https://www.instagram.com/waleskk/"><img src="Images/Instagram.png" alt="Instagram" title="Mon Instagram"/></a>
+                </p>
+                </div>
+            </div>
+            <p id="Contact"><small><sup>&copy</sup>2024 Waleska Bento - Mon site personnel, Tous droits réservés</small></p>
+        </footer>
+</body>
+</html>
